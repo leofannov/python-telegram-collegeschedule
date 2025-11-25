@@ -1,5 +1,48 @@
-python-telegram-bot==20.7
-openpyxl==3.1.2
-requests==2.31.0
-pytz==2023.3
-aiohttp==3.8.5
+# Telegram Bot: Расписание занятий v1.3
+# Основные зависимости
+
+# Telegram Bot Framework
+python-telegram-bot
+python-telegram-bot[job-queue]
+
+# База данных
+mysql-connector-python
+SQLAlchemy
+
+# Работа с Excel файлами
+openpyxl
+xlrd
+
+# HTTP запросы и веб
+requests
+aiohttp
+
+# Дата и время
+pytz
+python-dateutil
+
+# Системные утилиты
+psutil
+py-cpuinfo
+
+# Безопасность и шифрование
+cryptography
+pyOpenSSL
+
+# Логирование
+colorlog
+
+# Утилиты разработки
+typing-extensions
+asyncio
+
+# Сериализация данных
+ujson
+
+# Системные вызовы (для Windows служб)
+pywin32
+ctypes
+
+# Дополнительные утилиты
+Pillow
+emoji
